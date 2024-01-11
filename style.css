@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0%;
+}
+body{
+    background-color:hsl(257, 40%, 49%);
+}
+.logo{
+    background-image: url(images/logo.svg);
+}
+.purple{
+    
+    justify-content: center;
+    background-image: url(images/bg-desktop.svg);
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    
+}
+.big{
+    display: flex;
+    justify-content: left;
+
+}
+.picture{
+    margin-left: 5%;
+    display: inline-block;
+    width: 40vw;
+    height: 70vh;
+    margin-right: 5vw;
+
+}
+.text{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    display: inline-block;
+    width: 30vw;
+    font-size: larger;
+    
+}
+.button{
+    margin-top: 5%;
+    background-color: white;
+    width: 10vw;
+    padding: 0.8em;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: 10px 3px 40px black;
+    
+}
+nav{
+    padding: 2%;
+    padding-left: 2vw;
+}
+h1{
+    margin-bottom: 3%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.reg{
+    color: hsl(257, 40%, 49%);
+}
+.pic{
+    height: 70vh;
+   
+}
+footer{
+    margin-right: 5%;
+}
+.icons{
+    float: right;
+    width: 2.5vw;
+    margin-right: 1%;
+    color: white;
+}
